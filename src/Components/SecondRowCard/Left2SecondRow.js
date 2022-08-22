@@ -1,5 +1,4 @@
 import Card from "react-bootstrap/Card";
-import Image from "react-bootstrap/esm/Image";
 import Container from "react-bootstrap/esm/Container";
 import LineChart from "../LineChart/LineChart";
 // import BarChart from "../BarChart/BarChart";

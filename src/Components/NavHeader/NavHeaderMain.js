@@ -1,12 +1,9 @@
 import NavigationIconLeft from './NavigationIconLeft';
-// import CollapsibleExample from "./CollapsibleExample";
 import NavigationIconRight from "./NavigationIconRight";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { useEffect , useState } from 'react';
 import useWindowDimensions from '../SideBarCanvasHeader/useWindowDimensions';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faBars } from '@fortawesome/free-solid-svg-icons'
 import  LeftNavigationSideBar  from '../SideBarCanvasHeader/LeftNavigationSideBar';
 
 function NavHeaderMain() {
@@ -15,15 +12,13 @@ function NavHeaderMain() {
 
     useEffect(()=>{
         
-        if(width <= 800){
+        if(width <= 1029){
             setIsMedium(true)
           
         } 
         else{
             setIsMedium(false)
-        }  
-        console.log(isMedium); 
-        console.log(setIsMedium);      
+        }       
     },[width,isMedium])
 
 

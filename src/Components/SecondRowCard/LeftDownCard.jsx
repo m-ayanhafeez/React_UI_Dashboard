@@ -4,10 +4,10 @@ import DonutChart from "../DonutChart/DonutChart";
 
 function LeftDownCard(){
     return(
-        <Container className="col-12 w-100">
+        <Container className="col-12 col-lg-12 col-md-8 col-xl-4 w-100 h-100">
             <Card className="shadow-lg mb-3 bg-white rounded align-items-center d-flex h-100 w-100">
-                <Card.Body className="w-100">
-                    <div className="d-flex flex-xl-column justify-cntent-between" >
+                <Card.Body className="col-12">
+                    <div className="col-12 col-lg-12 d-flex flex-xl-column flex-lg-column flex-md-row justify-cntent-between" >
                 <div class="col-6">
                     <div className="mb-1 card-title">Earnings</div>
                     <div className="font-small-2">This Month</div>

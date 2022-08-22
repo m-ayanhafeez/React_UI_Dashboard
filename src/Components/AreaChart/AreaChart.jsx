@@ -80,7 +80,7 @@ const AreaChart = () => {
     
 
 <div id="chart" style={{
-    width: '790px'
+    width: '690px'
 }}>
 <ReactApexChart options={state.options} series={state.series} type="line" height={400} />
 </div>
